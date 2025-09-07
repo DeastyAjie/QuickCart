@@ -1,6 +1,6 @@
 import { Inngest } from "inngest";
 import connectDB from "./db";
-import User from "/User.js";
+import User from "@config/models/user";
 
 // Create a client to send and receive events
 export const inngest = new Inngest({ id: "quickcart-next" });
